@@ -31,7 +31,7 @@ public class roidController : MonoBehaviour
             Destroy(c.gameObject);
 
             // If large asteroid, spawn new ones
-            if (tag.Equals ("roidLarge"))
+            if (tag.Equals ("roidBig"))
             {
                 // Spawn small asteroids
                 Instantiate(roidSmall, new Vector3(transform.position.x - 0.5f, transform.position.y - 0.5f, 0), Quaternion.Euler(0, 0, 90));

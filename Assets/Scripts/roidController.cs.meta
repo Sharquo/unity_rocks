@@ -1,10 +1,13 @@
 fileFormatVersion: 2
 guid: 26d5b67f8465d6d479d46529bd2d46e2
-timeCreated: 1485360689
+timeCreated: 1485548842
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - roid_explosion: {fileID: 8300000, guid: 8072f03c6e646e44197c57bcf4f7fff7, type: 3}
+  - roidSmall: {fileID: 1620408984685376, guid: 8529b5a93e99b5e41ba2429851c72256,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
