@@ -104,7 +104,7 @@ public class GameController : MonoBehaviour
         asteroidsRemaining--;
     }
 
-    public void SplitAsteroids()
+    public void SplitAsteroid()
     {
         // Two extra asteroids
         // - big one
