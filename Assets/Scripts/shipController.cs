@@ -4,8 +4,8 @@ using UnityEngine;
 public class shipController : MonoBehaviour
 {
 
-    float rotationSpeed = 100.0f;
-    float thrustForce = 3f;
+    public float rotationSpeed = 100.0f;
+    public float thrustForce = 3f;
 
     public AudioClip lose;
     public AudioClip laser1;
